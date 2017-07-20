@@ -1,5 +1,10 @@
 // Multiple inheritance.
-
+/*
+            Class a   Class b
+            \          /
+              \      /
+                Class c    
+                */
 #include <iostream>
 
 using namespace std;
