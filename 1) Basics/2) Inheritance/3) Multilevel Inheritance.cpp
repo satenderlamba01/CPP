@@ -1,5 +1,15 @@
 // Multilevel inheritance.
-
+/*      
+        Class a
+            |
+            |
+            V
+        Class b
+            |
+            |
+            V
+        Class c
+    */
 #include <iostream>
 
 using namespace std;
