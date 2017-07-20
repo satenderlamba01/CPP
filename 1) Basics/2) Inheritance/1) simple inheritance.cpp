@@ -1,5 +1,11 @@
 // Single inheritance.
-
+/*      
+        Class a
+            |
+            |
+            V
+        Class b
+    */
 #include <iostream>
 
 using namespace std;
