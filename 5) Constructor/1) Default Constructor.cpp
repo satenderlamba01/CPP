@@ -9,6 +9,7 @@ class a
     int x;
 public:
     //default Constructor.
+    //Intializes data members with predefined values.
     a()
     {
         x=0;
