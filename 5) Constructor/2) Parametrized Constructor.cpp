@@ -9,6 +9,7 @@ class a
     int x;
 public:
     //parametrized Constructor.
+    //Intitializes with user defined values.
     a(int x)
     {
         this->x=x;
