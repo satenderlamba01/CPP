@@ -12,7 +12,7 @@ class book
 public:
     int c;
     int d;
-    
+
     //Constructor
     book()
     {
@@ -22,7 +22,7 @@ public:
         c=0;
         d=0;
     }
-    
+    //Fuctions defined inside class are by default inline
     void setabcd(int a, int b, int c, int d)
     {
         this->a=a;
@@ -30,27 +30,27 @@ public:
         this->c=c;
         this->d=d;
     }
-    
+
     int geta()
     {
         return a;
     }
-    
+
     int getb()
     {
         return b;
     }
-    
+
     int getc()
     {
         return c;
     }
-    
+
     int getd()
     {
         return d;
     }
-    
+
     //Destructor will be called when scope of the class book's object will be ending
     ~book()
     {
